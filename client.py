@@ -2,7 +2,7 @@ import socket
 import threading
 
 HOST = input("Enter server IP (use 127.0.0.1 for same PC): ")
-PORT = 5000
+PORT = 5002
 
 client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 client.connect((HOST, PORT))
