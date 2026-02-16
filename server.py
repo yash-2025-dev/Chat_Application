@@ -2,7 +2,7 @@ import socket
 import threading
 
 HOST = "0.0.0.0"
-PORT = 5000
+PORT = 5001
 
 server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 server.bind((HOST, PORT))
